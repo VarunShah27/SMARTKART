@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+
+    <script src="https://cdn.botpress.cloud/webchat/v2.3/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2025/04/08/16/20250408165414-RVHGDBDQ.js"></script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartKart</title>
+  </head>
+  <body>
+    <div id="webchat"></div>
+    <script>
+      window.botpress.on("webchat:ready", () => {
+        window.botpress.open();
+      });
+      window.botpress.init({
+      "botId": "2d195c01-3f1c-4259-b873-75d11ac27d64",
+      "configuration": {
+        "composerPlaceholder": "SmartKart Assistance",
+        "botName": "SmartKart AI ChatBot",
+        "website": {},
+        "email": {},
+        "phone": {},
+        "termsOfService": {},
+        "privacyPolicy": {},
+        "color": "#3B82F6",
+        "variant": "soft",
+        "themeMode": "light",
+        "fontFamily": "inter",
+        "radius": 1
+      },
+      "clientId": "39b461dd-3101-49d7-973a-da26fdeb6171",
+      "selector": "#webchat"
+    });
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"> </script>
+  </body>
+</html>
